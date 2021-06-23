@@ -1,0 +1,9 @@
+---
+- name: Network automation exercise
+  hosts: apic
+  gather_facts: no
+
+  roles: 
+    - tenant
+
+  
